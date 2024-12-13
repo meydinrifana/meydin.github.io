@@ -1,0 +1,46 @@
+body {
+  background-image: url(background\ 3.jpg);
+}
+h2 {
+  text-align: center;
+}
+.loginpage {
+  display: grid;
+  justify-content: center;
+  border: 2px skyblue;
+  margin: 45px 480px;
+  padding: 20px 30px;
+  border-radius: 45px;
+  background-color: rgb(161, 196, 250);
+}
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  margin: 2px 8px 7 px 8px;
+}
+button {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: cadetblue;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(92, 87, 96);
+}
+tombol {
+  display: flex;
+  justify-content: center;
+}
+.loginpage:haver {
+  box-shadow: 5px 5px 10px black;
+}
+button-haver {
+  box-shadow: 5px 5px 10px rgb(224, 213, 168);
+}
+a1 haver {
+  color: black;
+}
+input-haver {
+}

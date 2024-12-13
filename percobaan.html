@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Kolom Sejajar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .menu-container {
+            width: 90%;
+            max-width: 1200px;
+            display: flex;
+            justify-content: space-between;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .menu-column {
+            flex: 1;
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-sizing: border-box;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-column:hover {
+            background-color: #0056b3;
+        }
+
+        .menu-column h3 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+
+        .menu-item {
+            display: block;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            margin-bottom: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-item:hover {
+            background-color: #555;
+        }
+
+        .menu-item:active {
+            background-color: #222;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="menu-container">
+        <div class="menu-column">
+            <h3>Menu 1</h3>
+            <a href="#" class="menu-item">Item 1A</a>
+            <a href="#" class="menu-item">Item 1B</a>
+            <a href="#" class="menu-item">Item 1C</a>
+            <a href="#" class="menu-item">Item 1D</a>
+        </div>
+        <div class="menu-column">
+            <h3>Menu 2</h3>
+            <a href="#" class="menu-item">Item 2A</a>
+            <a href="#" class="menu-item">Item 2B</a>
+            <a href="#" class="menu-item">Item 2C</a>
+            <a href="#" class="menu-item">Item 2D</a>
+        </div>
+        <div class="menu-column">
+            <h3>Menu 3</h3>
+            <a href="#" class="menu-item">Item 3A</a>
+            <a href="#" class="menu-item">Item 3B</a>
+            <a href="#" class="menu-item">Item 3C</a>
+            <a href="#" class="menu-item">Item 3D</a>
+        </div>
+    </div>
+
+</body>
+</html>

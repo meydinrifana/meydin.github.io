@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: url(Desain\ tanpa\ judul.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: 1700px;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  padding-top: 90px;
+  padding-left: 85px;
+  padding-right: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 85px;
+  border-top: 70px;
+  position: relative;
+  color: #000000;
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500px;
+  letter-spacing: 1px;
+}
+
+header .navigation a {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 01px;
+  font-size: 15px;
+  border: 2px solid #2c7263;
+  border-radius: 100px;
+  padding: 5px 18px;
+}
+
+header .navigation a:not(:last-child) {
+  margin-right: 80px;
+}
+
+header .navigation a:hover {
+  color: antiquewhite;
+  background: #2c7263;
+  line-height: normal;
+}
+
+.content {
+  max-width: 650px;
+  margin: 60px 100px;
+}
+
+.content h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 120px;
+  margin-top: 90px;
+  color: #2c6b5b;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 40;
+  letter-spacing: 1px;
+  line-height: 90px;
+  margin-bottom: 2px;
+}
+
+.content .info h2 span {
+  color: #000;
+  font-size: 55px;
+  font-weight: 800;
+}
+
+.content .info-btn {
+  color: #fff;
+  background: #c5a27a;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+  transition-property: background;
+}
+
+.content .info-btn:hover {
+  background: #3b2710;
+}

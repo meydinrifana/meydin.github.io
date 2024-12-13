@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loading Arrizqi.id</title>
+  <style>
+    /* Style untuk body dan layout */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+
+    /* Style untuk loading screen */
+    .loading-screen {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(255, 255, 255, 0.8); /* Latar belakang transparan */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999; /* Agar loading muncul di atas konten lain */
+    }
+
+    /* Logo tanpa animasi rotasi (logo tetap diam) */
+    .logo {
+      width: 100px; /* Atur ukuran logo */
+      height: auto;
+    }
+
+    /* Style untuk konten utama */
+    .main-content {
+      display: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Loading screen -->
+  <div class="loading-screen">
+    <img src="logo 3.png" alt="Logo" class="logo">
+  </div>
+
+  <!-- Konten utama halaman -->
+  <div class="main-content">
+    <h1>Selamat Berbelanja</h1>
+    <p>produknya menarik....</p>
+  </div>
+
+  <script>
+    // Menghilangkan loading screen setelah 5 detik dan melanjutkan ke halaman berikutnya
+    setTimeout(function() {
+      // Menghilangkan loading screen
+      document.querySelector('.loading-screen').style.display = 'none';
+      // Menampilkan konten utama
+      document.querySelector('.main-content').style.display = 'block';
+      
+      // Redirect ke halaman lain setelah 5 detik
+      window.location.replace("landingpage.html");  // Ganti dengan URL halaman yang diinginkan
+    }, 3000);
+  </script>
+</body>
+</html>

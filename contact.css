@@ -1,0 +1,35 @@
+.header{
+    margin-top: 3%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    width: 40%;
+    height: 78px;
+    margin-left: 550px;
+}
+.logo{
+    padding: 2%;
+    margin-top: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 525px;
+    height: 45%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.gambar {
+    width: 70px;
+    height: 70px;
+    padding-left: 20px;
+}
